@@ -133,7 +133,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    printf("Argc=%d\n", argc);
+    //printf("Argc=%d\n", argc);
 
     if ( mode < 1 || mode > 5 ){
         if ( argc == 4 || argc == 3 ){ 
