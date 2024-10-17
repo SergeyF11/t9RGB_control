@@ -3,7 +3,7 @@ __author__ = "Sergey Fedotov"
 __copyright__ = "Copyright 2024 Sergey Fedotov <servifed2@gmail.com>"
 __license__ = "GPLv3-or-later"
 __email__ = "servifed2@gmail.com"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 */
 
 //#define _GNU_SOURCE  // For BOTHER flag in termios2 
@@ -133,8 +133,14 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
+    printf("Argc=%d\n", argc);
+
     if ( mode < 1 || mode > 5 ){
-        printf("Invalid mode: %s\n", argv[1]);
+        if ( argc == 4 || argc == 3 ){ 
+            printf("Both brightness and speed must be specified.\n");
+        } else {
+            printf("Invalid mode: %s\n", argv[1]);
+        }
         usage(argv);
         return 1;
     }
