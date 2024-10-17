@@ -1,3 +1,11 @@
+/*
+__author__ = "Sergey Fedotov"
+__copyright__ = "Copyright 2024 Sergey Fedotov <servifed2@gmail.com>"
+__license__ = "GPLv3-or-later"
+__email__ = "servifed2@gmail.com"
+__version__ = "0.1.0"
+*/
+
 //#define _GNU_SOURCE  // For BOTHER flag in termios2 
 #include <fcntl.h> 
 #include <unistd.h> 
