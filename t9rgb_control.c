@@ -3,7 +3,7 @@ __author__ = "Sergey Fedotov"
 __copyright__ = "Copyright 2024 Sergey Fedotov <servifed2@gmail.com>"
 __license__ = "GPLv3-or-later"
 __email__ = "servifed2@gmail.com"
-__version__ = "0.2"
+__version__ = "0.2a"
 */
 
 //#define _GNU_SOURCE  // For BOTHER flag in termios2 
