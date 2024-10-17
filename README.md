@@ -18,9 +18,9 @@ where mode is one from: "Auto" "Off" "Cycle" "Breathing" "Rainbow".
 	brightness and speed value from 1 to 5 (optional, default=1).  
 	Default device is '/dev/ttyUSB0'
 
-P.S. You must be in the dialup group to use the program. Add a user to the group with the command.
+P.S. You must be in the dialout group to use the program. Add a user to the group with the command.
 
-	sudo adduser <CURENT_USER> dialup
+	sudo adduser <CURENT_USER> dialout
 You can run this program as a superuser for a test only!
 
 ## Copyright
