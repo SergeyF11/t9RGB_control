@@ -6,25 +6,21 @@ The app based on Python script of Niccolo Rigacci <https://rigacci.org/wiki/doku
 
 
 ## Compile
-make
+`make`
 
 ## Install
-sudo make install
+`sudo make install`
 
 ## Usage
-t9rgb_control [device] <mode> [brightness speed]
+`t9rgb_control [device] <mode> [brightness speed]`
 
-	where mode is one from: "Auto" "Off" "Cycle" "Breathing" "Rainbow".
-
-	brightness and speed value from 1 to 5 (optional, default=1).
+	where mode is one from: "Auto" "Off" "Cycle" "Breathing" "Rainbow".  
+	brightness and speed value from 1 to 5 (optional, default=1).  
+	Default device is '/dev/ttyUSB0'
 
 ## Copyright
-__author__ = "Sergey Fedotov"
-
-__copyright__ = "Copyright 2024 Sergey Fedotov <servifed2@gmail.com>"
-
-__license__ = "GPLv3-or-later"
-
-__email__ = "servifed2@gmail.com"
-
+__author__ = "Sergey Fedotov"  
+__copyright__ = "Copyright 2024 Sergey Fedotov <servifed2@gmail.com>"  
+__license__ = "GPLv3-or-later"  
+__email__ = "servifed2@gmail.com"  
 __version__ = "0.1"
