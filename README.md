@@ -21,7 +21,7 @@ where mode is one from: "Auto" "Off" "Cycle" "Breathing" "Rainbow".
 P.S. You must be in the dialup group to use the program. Add a user to the group with the command.
 
 	sudo adduser <CURENT_USER> dialup
-You can call this program as a superuser for a test only!
+You can run this program as a superuser for a test only!
 
 ## Copyright
 __author__ = "Sergey Fedotov"  
