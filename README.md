@@ -11,6 +11,9 @@ The app based on Python script of Niccolo Rigacci <https://rigacci.org/wiki/doku
 ## Install
 	sudo make install
 
+## Uninstall
+	sudo make uninstall
+
 ## Usage
 	t9rgb_control [device] <mode> [brightness speed]
 
